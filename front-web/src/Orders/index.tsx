@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { fetchProducts, saveOrder } from '../api';
 import Footer from '../Footer';
 import { checkIsSelected } from './helpers';
@@ -8,7 +8,7 @@ import OrderSummary from './OrderSummary';
 import ProductList from './ProductList';
 import StepsHeader from './StepsHeader';
 import './styles.css';
-import { OrderLocationData, Product } from './Types';
+import { OrderLocationData, Product } from './types';
 
 
 function Orders (){

@@ -1,5 +1,3 @@
-import { type } from "os"
-
 export type Product = {
     id: number;
     name: string;
@@ -21,3 +19,4 @@ type Productid = {
 export type OrderPayload = {
     products: Productid[];
 } & OrderLocationData;
+
